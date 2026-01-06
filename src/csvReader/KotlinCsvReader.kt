@@ -2,6 +2,10 @@ package csvReader
 
 import java.io.File
 
+/**
+ * 코틀린은 static 이 필요없는 "최상위 함수" 진짜를 지원한다
+ * 최상위 함수로 "확장함수" 를 구현해서 별도의 클래스 없이 지원
+ */
 fun main(args: Array<String>) {
     val memberList = readCsv()
 
