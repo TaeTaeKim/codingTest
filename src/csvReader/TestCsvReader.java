@@ -35,7 +35,6 @@ public class TestCsvReader {
 
         // 소개내용에 좋아 등장 횟수
         int countLike = calLikeCount(lists);
-        System.out.println("countLike = " + countLike);
 
     }
 
